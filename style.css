@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2D4263;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+h1{
+    margin:2rem;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #EEEEEE;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+ul{
+    margin:2rem 5rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+li a{
+    color:#ECB365;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.subtitle{
+    margin:0.5rem 1rem;
+}
+

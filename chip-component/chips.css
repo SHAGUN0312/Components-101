@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: #F0F8FF;
+}
+
+.wrapper{
+    margin-top:10rem;
+    display: flex;
+    gap: 0.5rem 0.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chip{
+    display: flex;
+    padding: 0 0.5rem ;
+    border: 1.5px solid pink;
+    border-radius: 2rem;
+}
+
+.chip p{
+    padding-top:0.1rem;
+}
+
+.chip i{
+    align-self: center;
+    margin-left:0.5rem;
+    cursor: pointer;
+}
+
+.chip:hover{
+    background-color: pink;
+    color: white;
+}

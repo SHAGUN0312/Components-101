@@ -1,0 +1,142 @@
+:root{
+    --primary-color:#252D42;
+    --secondary-color:#B6BCCC;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--primary-color);
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h5{
+    color:white;
+    text-align: center;
+    font-size: large;
+    margin:0.5rem 0;
+    border-bottom: 1px solid #98AFC7;
+    border-radius: 1rem;
+}
+
+.card{
+    background: var(--secondary-color);
+    flex-basis: 290px;
+    height: max-content;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.card-img{
+   height: 200px;
+   background-image: url("jeremy_zucker.jpg");
+   background-size: cover;
+   border-radius: 10px 10px 0 0;
+}
+
+.card-header{
+    margin-left: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1.2rem;
+}
+
+.card-links a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Card1 specific styles */
+.card1-header__title{
+    padding-top: 1rem;
+}
+
+.card1-header__subtitle{
+    font-size: 0.8rem;
+}
+
+.card1-header__desc{
+    padding: 1rem 0;
+}
+
+/* Card2 specific styles */
+.card2-header{
+    position: relative;
+}
+
+.card2-header__title{
+    position: absolute;
+    bottom: 180px;
+}
+
+.card2-header__subtitle{
+    position: absolute;
+    bottom: 160px;
+    font-weight: bold;
+}
+
+/* Card3 specific styles */
+.card3-header__subtitle{
+    padding-bottom: 1rem;
+    color:#5C5858; 
+}
+
+/* Card4 specific styles */
+.card4-links{
+ justify-content: flex-start; 
+ gap: 1rem;
+ margin-left: 1rem;
+}
+
+/* Card5 specific styles */
+.card5-links{
+    justify-content: end;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+/* Card6 specific styles */
+.card6-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card6-header__img{
+    background-image: url("jeremy_zucker.jpg");
+    width: 10rem;
+    height: 8rem;
+    background-size: cover;
+}
+
+.card6-header__text{
+    padding-top: 2.5rem;
+}
+
+.card6-header__subtitle{
+    font-size: small;
+}
+
+.card6-links{
+    padding-top: 1.5rem;
+}

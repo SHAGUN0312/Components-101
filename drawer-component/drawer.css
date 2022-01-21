@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    background: #d6d4d4;
+    display: flex;
+    margin:2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: 1px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    border-radius: 0.3rem;
+    padding: 1rem 0.8rem;
+    flex-basis: 250px;
+}
+
+.header.title{
+    margin-top:0.2rem;
+    font-size: 18px;
+}
+
+.subtitle{
+    font-weight:lighter;
+    margin-top:-1rem;
+    color:gray;
+}
+
+.option:hover{
+    background-color: rgb(232, 224, 240);
+    border-radius:0.3rem;
+}
