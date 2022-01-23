@@ -11,32 +11,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="title">Title
-                <p class="subtitle">subtext</p>
+    <div class="wrapper">
+        <div class="drawer">
+            <div class="drawer__text">
+                <h1>Title</h1>
+                <div style="margin-top:-1rem;">subtext</div>               
+            </div>
+            <div class="drawer__icons">
+                <a href="#" onclick="return false;" class="drawer__link">
+                    <i class="fas fa-inbox"></i>
+                    Inbox
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link">
+                    <i class="far fa-star"></i>
+                    Star
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link">
+                    <i class="far fa-paper-plane"></i>
+                    Sent Mail
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link">
+                    <i class="far fa-envelope-open"></i>
+                    Drafts
+                </a>
             </div>
         </div>
         <div class="drawer">
-            <div class="option option1">
-                <i class="fas fa-inbox"></i>
-                Inbox
+            <div class="drawer__text">
+                <h1>Title</h1>
+                <div style="margin-top:-1rem;">subtext</div>               
             </div>
-            <div class="option option2">
-                <i class="far fa-paper-plane"></i>
-                Star
-            </div>
-            <div class="option option3">
-                <i class="fas fa-star"></i>
-                Sent Mail
-            </div>
-            <div class="option option4">
-                <i class="far fa-envelope-open"></i>
-                Drafts
+            <div class="drawer__icons">
+                <a href="#" onclick="return false;"class="drawer__link icon-right">
+                    Inbox
+                    <i class="fas fa-inbox"></i>
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link icon-right">
+                    Star
+                    <i class="far fa-star"></i>
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link icon-right">
+                    Sent Mail
+                    <i class="far fa-paper-plane"></i>
+                </a>
+                <a href="#" onclick="return false;" class="drawer__link icon-right">
+                    Drafts
+                    <i class="far fa-envelope-open"></i>
+                </a>
             </div>
         </div>
-
     </div>
-
 </body>
 </html>

@@ -6,35 +6,47 @@
 
 body{
     font-family: 'Baloo Bhaina 2', cursive;
-    background: #d6d4d4;
+    background: #ffc8d0;
+}
+
+.wrapper{
     display: flex;
-    margin:2rem;
+    gap: 2rem 10rem;
     justify-content: center;
+    flex-wrap:wrap;
+    align-content: end;
+    margin-top: 1rem;
+}
+
+.drawer{
+    background: white;
+    padding: 1rem 0.7rem;
+    min-width:300px;
+    border-radius: 5px;
+}
+
+.drawer__link{
+    display: flex;
     align-items: center;
-    min-height: 100vh;
+    gap: 3rem;
+    /* justify-content: space-between; */
 }
 
-.container{
-    border: 1px solid white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background: #fff;
-    border-radius: 0.3rem;
-    padding: 1rem 0.8rem;
-    flex-basis: 250px;
+.drawer__icons>a{
+    text-decoration: none;
+    color: black;
+    margin-top:1rem;
+    font-size: 1.2rem;
 }
 
-.header.title{
-    margin-top:0.2rem;
-    font-size: 18px;
+.drawer__icons>a:focus{
+    color:pink;
+    background: rgb(139, 255, 255);
+    border-radius: 10px;
+    padding:0.5rem 1rem;
+    font-size: 1.3rem;
 }
 
-.subtitle{
-    font-weight:lighter;
-    margin-top:-1rem;
-    color:gray;
-}
-
-.option:hover{
-    background-color: rgb(232, 224, 240);
-    border-radius:0.3rem;
+.icon-right>i{
+    margin-left: auto;
 }
