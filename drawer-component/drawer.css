@@ -6,23 +6,25 @@
 
 body{
     font-family: 'Baloo Bhaina 2', cursive;
-    background: #ffc8d0;
+    background: #F2F2F2;
 }
 
 .wrapper{
     display: flex;
-    gap: 2rem 10rem;
+    gap: 1.5rem;
     justify-content: center;
     flex-wrap:wrap;
     align-content: end;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .drawer{
-    background: white;
-    padding: 1rem 0.7rem;
+    padding: 1rem;
     min-width:300px;
     border-radius: 5px;
+    height: max-content;
+    background: white;
+
 }
 
 .drawer__link{
@@ -32,21 +34,92 @@ body{
     /* justify-content: space-between; */
 }
 
-.drawer__icons>a{
+.drawer__icons a{
     text-decoration: none;
     color: black;
     margin-top:1rem;
     font-size: 1.2rem;
+    padding: 0.1rem 1rem;
 }
 
 .drawer__icons>a:focus{
-    color:pink;
-    background: rgb(139, 255, 255);
-    border-radius: 10px;
-    padding:0.5rem 1rem;
-    font-size: 1.3rem;
+    color:#6100EE;
+    background: #ECE1FD;
+    border-radius: 0.3rem;
+    padding:0.2rem 1rem;
 }
 
+/* drawer-2 */
 .icon-right>i{
     margin-left: auto;
+}
+
+/* drawer-3 */
+.permanent__drawer{
+    display: flex;
+    margin:3rem 1rem;
+    gap:0.2rem;
+    border: 0.2rem solid grey;
+    max-height:24rem;
+}
+
+.drawer__items{
+    display: flex;
+    flex-direction: column;
+    min-width:max-content;
+}
+
+.drawer__items>.drawer__header{
+    background: whitesmoke;
+}
+
+.drawer__header{
+    margin:0.4rem 0;
+    padding: 0 1rem;
+    font-size: large;
+}
+
+.drawer__subtitle{
+    margin-top:-0.7rem;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+.nav-items{
+    max-height: 19rem;
+    overflow-y: scroll;
+}
+
+.nav-item__link{
+    display:flex;
+    align-items:center;
+    text-decoration: none;
+    gap:2rem;
+    padding: 0.5rem 1rem;
+    color: rgb(73, 73, 73);
+}
+
+.nav-item__link:focus{
+    color:#6100EE;
+    background: #ECE1FD;
+}
+
+.nav-item__link>i{
+    padding-bottom:0.4rem;
+}
+
+.drawer__content{
+    overflow-y: scroll;
+    border-radius: 0.2rem;
+}
+
+.drawer__content>.main__header{
+    background-color:#6100EE;
+    padding:1rem 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.drawer__content p{
+    padding: 1rem;
 }
