@@ -24,7 +24,11 @@ h1{
 }
 
 ul{
-    margin:2rem 5rem;
+    place-self: center;
+    margin:0.2rem 5rem;
+    color: white;
+    list-style-type:circle;
+    font-size:0.8rem;
 }
 
 li{
@@ -35,9 +39,5 @@ li a{
     color:#ECB365;
     text-decoration: none;
     font-size: 1.2rem;
-}
-
-.subtitle{
-    margin:0.5rem 1rem;
 }
 
