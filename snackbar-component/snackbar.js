@@ -19,7 +19,12 @@ action.forEach((btn) => {
 })
 
 const setDisplay= snackbar => {
-    snackbar.style.display = 'inline-flex';
+    if(snackbar == stackedSnackbar){
+        snackbar.style.display = 'block';
+    }
+    else{
+        snackbar.style.display = 'inline-flex';
+    }
     setTimeout(() => {
         snackbar.style.display = "none";
     }, 2000);
