@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab-Component</title>
+    <link rel="stylesheet" href="tabs.css">
+</head>
+<body>
+    <div class="tab-container">
+        <div class="fixed-tab tab">
+            <h3>Fixed</h3>
+            <ul>
+                <li class="tab-one"><a href="#">One</a></li>
+                <li class="tab-two"><a href="#">Two</a></li>
+                <li class="tab-three"><a href="#">Three</a></li>
+            </ul>
+        </div>
+        <div class="scrollable-tab tab">
+            <h3>Scrollable</h3>
+            <ul>
+                <li class="tab-scroll"><a href="#">One</a></li>
+                <li class="tab-scroll"><a href="#">Two</a></li>
+                <li class="tab-scroll"><a href="#">Three</a></li>
+                <li class="tab-scroll"><a href="#">Four</a></li>
+                <li class="tab-scroll"><a href="#">Five</a></li>
+                <li class="tab-scroll"><a href="#">Six</a></li>
+                <li class="tab-scroll"><a href="#">Seven</a></li>
+                <li class="tab-scroll"><a href="#">Eight</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const tabs = document.querySelectorAll('.tab-scroll');
+        tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+                tab.scrollIntoView({inline:"center"});
+            })
+        })
+    </script>
+</body>
+</html>
