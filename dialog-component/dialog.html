@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog-Component</title>
+    <link rel="stylesheet" href="dialog.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="dialog-component">
+        <div class="dialog alert-dialog">
+            <h1 class="alert__dialog--header dialog__header">Dialog header</h1>
+            <p class="alert__dialog--text dialog__text">Dialog body text</p>
+            <div class="action-links">
+                <a href="#" onclick="return false">ACTION 1</a>
+                <a href="#" onclick="return false">ACTION 2</a>
+            </div>
+        </div>
+        <div class="dialog simple-dialog">
+            <h1 class="simple__dialog--header dialog__header">
+                Dialog Header
+            </h1>
+            <div class="item">
+                <i class="far fa-user-circle"></i>
+                Item 1
+            </div>
+            <div class="item">
+                <i class="far fa-user-circle"></i>
+                Item 2
+            </div>
+            <div class="item">
+                <i class="far fa-user-circle"></i>
+                Item 3
+            </div>
+        </div>
+        <div class="dialog confirmation-dialog">
+            <h1 class="dialog__header confirmation__dialog--header">
+                Dialog header
+            </h1>
+            <div class="options">
+                <a href="#"><input type="radio" name="Item" id="Item1">Item 1 </a>
+                <a href="#"><input type="radio" name="Item" id="Item2">Item 2 </a>
+                <a href="#"><input type="radio" name="Item" id="Item3">Item 3 </a>
+                <a href="#"><input type="radio" name="Item" id="Item4">Item 4 </a>
+                <a href="#"><input type="radio" name="Item" id="Item5">Item 5 </a>
+                <a href="#"><input type="radio" name="Item" id="Item6">Item 6 </a>
+                <a href="#"><input type="radio" name="Item" id="Item7">Item 7 </a>
+            </div>
+            <div class="action-links">
+                <a href="#" onclick="return false">ACTION 1</a>
+                <a href="#" onclick="return false">ACTION 2</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
